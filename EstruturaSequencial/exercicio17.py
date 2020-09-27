@@ -5,7 +5,6 @@
 		# 3. misturar latas e galões, de forma que o preço seja o menor. Acrescente 10% de folga e sempre arredonde os valores para cima, isto é, considere latas cheias.
 
 tamanhoM2 = float(input("Qual o tamanho em metros quadrados da área a ser pintada?: "))
-litros = tamanhoM2 / 6
 
 if tamanhoM2 % 108 == 0:
 	latas = tamanhoM2 / 108

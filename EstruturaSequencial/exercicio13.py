@@ -6,8 +6,10 @@ genero = int(input("Digite 1 (um) se você é homem, e 2 (dois) se é mulher: ")
 
 if genero == 1:
 	peso = (72.7 * altura) - 58
-
-if genero == 2:
+elif genero == 2:
 	peso = (62.1 * altura) - 44.7
+else:
+	print("Não conseguimos calcular o seu peso ideal, por favor, tente novamente.")
+	peso = 'PESO INVÁLIDO.'
 
 print("O seu peso ideal baseado na sua altura seria: {}".format(peso))
